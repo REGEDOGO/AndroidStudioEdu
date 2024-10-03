@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">app04</string>
+    <string-array name="listOptions">
+        <item>red</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>yellow</item>
+    </string-array>
+</resources>
