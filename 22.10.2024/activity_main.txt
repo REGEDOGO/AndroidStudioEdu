@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress1"
+        android:layout_weight="1"
+        android:layout_marginBottom="5dp"
+        style="@style/Widget.AppCompat.ProgressBar.Horizontal"/>
+
+    <ProgressBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/progress2"
+        android:layout_weight="5"
+        android:layout_marginBottom="5dp" />
+
+    <SeekBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/seek1"
+        android:layout_weight="5"
+        android:max="1000"
+        android:min="500"
+        android:progress="727"/>
+
+    <RatingBar
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/rating1"
+        style="@style/Widget.AppCompat.RatingBar"
+        android:numStars="5"
+        android:stepSize="0.5" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="rozpocznij intencję"
+        android:onClick="intent" />
+</LinearLayout>
