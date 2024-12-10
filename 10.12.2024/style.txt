@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="NewTheme" parent="Theme.AppCompat">
+        <item name="android:windowBackground">@color/green</item>
+        <item name="colorPrimary">@color/yellow</item>
+        <item name="colorPrimaryDark">@color/red</item>
+        <item name="android:textColor">@color/cyan</item>
+        <item name="colorAccent">@color/blue</item>
+        <item name="android:textColorPrimary">@color/purple</item>
+    </style>
+
+    <style name="Button">
+        <item name="android:background">@color/blue</item>
+        <item name="android:textColor">@color/cyan</item>
+    </style>
+</resources>
