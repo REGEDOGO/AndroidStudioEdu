@@ -51,4 +51,10 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+    @Override
+    public void onSaveInstanceState(Bundle savedInstanceState) {
+        super.onSaveInstanceState(savedInstanceState);
+        savedInstanceState.putInt("seconds", seconds);
+        savedInstanceState.putBoolean("running", running);
+    }
 }
